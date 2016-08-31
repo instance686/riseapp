@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "732384221112",
+    "project_id": "riseapp-7e4c9"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732384221112:android:918f0a2cdc51bff1",
+        "android_client_info": {
+          "package_name": "example.naimish.com.alarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "732384221112-lffh7usbq8ebmv861vh141fed0mp1tpn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "example.naimish.com.alarm",
+            "certificate_hash": "911AD475D8E27450808F78A23AFE0447DB898726"
+          }
+        },
+        {
+          "client_id": "732384221112-9omdjd7c6tk717urj1i94r2host84vg9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHivk_ZTTbUPgyygHmY3iwYRR_M69cpzg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

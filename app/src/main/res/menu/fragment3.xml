@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/group"
+        app:showAsAction="always"
+        android:title="Create Group"/>
+        <!--android:icon="@drawable/group"-->
+
+
+    <item
+        android:id="@+id/remove_selections"
+        app:showAsAction="always"
+        android:title="Remove All"/>
+
+    <item
+        android:id="@+id/action_proposals"
+        android:icon="@drawable/settings"
+        app:showAsAction="always"
+        android:title="Settings"/>
+</menu>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/record_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fabSize="mini"
+        android:src="@drawable/mic"
+        android:onClick="record_stop"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:id="@+id/play"
+        android:onClick="recordPlay"
+        android:layout_alignTop="@+id/record_stop"
+        android:layout_toRightOf="@+id/record_stop"
+        android:layout_toEndOf="@+id/record_stop"
+        android:layout_marginLeft="10dp"
+        android:background="#fff"
+        android:visibility="gone"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/delete_recording"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/windowBackground"
+        android:src="@android:drawable/ic_menu_delete"
+        android:visibility="gone"
+        android:onClick="delete_recording"
+        />
+
+</RelativeLayout>
